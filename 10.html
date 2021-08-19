@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>天马行空</title>
+    <!-- Stylesheets -->
+    <link href="css/text.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="page-wrapper default-version">
+ 	
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+    <div class="page-background">
+        <div class="image-1"><img src="images/icons/shape/icon-1.png" class="now-in-view" alt=""></div>
+        <div class="image-7"><img src="images/icons/shape/icon-7.png" class="now-in-view" alt=""></div>
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+        <div class="container">
+            <!--Nav Outer-->
+            <div class="nav-outer clearfix">
+                <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+                <!-- Main Menu -->
+                <nav class="main-menu">
+                    <div class="navbar-header">
+                        <!-- Toggle Button -->      
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    
+                    <div class="navbar-collapse collapse scroll-nav clearfix">
+                        <ul class="navigation clearfix">
+
+                           
+                            <li><a href="index.html">快乐老家</a></li>
+                            <li><a href="#about">关于</a></li>
+                            <li><a href="#resume">经历</a></li>
+                            <li><a href="#services">技能</a></li>
+                            <li><a href="#work">工作</a></li>
+                            <li><a href="#blog">日记</a></li>
+                            <li><a href="#contact">交流</a></li>
+
+                        </ul>
+                    </div>
+                </nav>
+                <!-- Main Menu End-->                        
+            </div>
+            <!--Nav Outer End-->            
+        </div>
+    </div>
+ 	
+    <div class="card-outer">
+        <div class="scroll-box">
+            <div class="container" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+                <div class="card-wrapper">
+                    <div class="author-info" style="background-image:url(images/background/3.jpg)">
+                        <div class="image"><img src="images/resource/user.png" alt=""></div>
+                        <div class="author">
+                            <h3>曹思威</h3>
+                            <div class="designation">
+                                你好，我是一位
+                                <div class="typing-title">
+                                    <p> <strong>普通人.</strong></p>
+                                    <p> <strong>大学生.</strong></p>
+                                    <p> <strong>自诩科幻作家.</strong></p>
+                                </div>
+                                <span class="typed-title"></span>
+                            </div>
+                        </div>
+                        <div class="link-btn">
+                            <a href="http://www.baidu.com/" class="theme-btn btn-style-one">全知全能</a>
+                        </div>
+                        <ul class="social-icon-two">
+                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                            <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
+                        </ul>
+                    </div>
+
+                    <!--下面添加你要显示的内容或者代码-->
+                    <!--
+        <script type="text/javascript">
+            function password() {
+                var testV = 1;
+                var pass1 = prompt('请输入密码', '');
+                while (testV < 3) {
+                    if (!pass1)
+                        history.go(-1);
+                    if (pass1 == "88888888") {
+                        //alert('密码正确');
+                        break;
+                    }
+                    testV += 1;
+                    var pass1 =
+                        prompt('密码错误!请重新输入:');
+                }
+                if (pass1 != "password" & testV == 3)
+                    history.go(-1);
+                return " ";
+            }
+            document.write(password());
+        </script>
+        <!--下面添加你要显示的内容或者代码-->
+                    <div class="card-inner-box">
+                        <header class="header wow fadeInLeft" data-wow-duration="1.5s">
+                            <ul class="main-menu">
+                                <li class="active home"><a class="logo" href="index.html"><img src="images/logo.png" alt=""></a></li>
+                                <li><a href="#1" style="font-size:2px"><i class="flaticon-blog"></i>我的马克思主义观</a></li>
+                            </ul>
+                        </header>
+
+                      
+                        <div class="card-home card-item active" id="home" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner wow fadeInUp" data-wow-duration="2s">
+                                <p>点击左边，开始你的阅读</p>
+                            </div>
+
+                        </div>
+                        <!-- card item -->
+                        <div class="card-about card-item" id="1" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner " data-wow-duration="2s">
+                                <br />
+                                <div style="font-size: 70px; text-align: center;">我的马克思主义观</div>
+                                <br />
+                                <div style="text-indent: 2em; font-family: 楷体; font-size: 25px; color: black;">
+                                    <div>或许我来谈马克思主义也没什么意义，毕竟先前有许多的人谈过了，但是我们毕竟生活在马克思主义之下，就算我是一点书也没有度过的人
+                                    那也应该有这个机会去谈一谈。工人需要一个领导，他们需要的是纲领，和胆识，让他们理解了马克思主义，就是理解了胜利，所以我认为，对于
+                                    一个劳动者来说，他们理解的马克思主义或许才是正真的马克思主义，我们赋予的过多的名词不过是提高纲领的权威性罢了。
+                                    </div>
+                                    <div>
+                                        相信大家都看出来了，我的标题就是引用了李大钊同志在1919年发表的《我的马克思主义观》，所以我就想对标这篇文章，发表自己的看法。
+                                    </div>
+                                    <div>
+                                        了解马克思主义的步骤是什么？李大钊在文章的开始就说了“一个德国人说过，五十岁以下的人说他能了解马克思主义的学说，定是欺人之谈。”
+                                        就像我们在地球上生活一样，我们依旧对地球了解甚少，但是我们依旧可以自豪的说实践是检验真理的唯一标准。对于外来的生物来说，他们可
+                                        以把地球分成两半，慢慢观察里面的物质，然后列出常常的表单，说：“看！我们完全了解了地球。”但是这是片面的，对于物质，了解了，但是
+                                        对于上面的文化，上面的人类，只是看到。看到了表面，没有看到内核，正如他们不会看到《共产主义宣言》那样。
+                                    </div>
+                                    <div>
+                                        归于劳动者，他们最有发言权。但是如果问他们，什么是马克思主义，他们只会一脸疑惑，但如果跟他们讲现在的生活，那必然头头是道。
+                                        到底来说，还是自己的时间，用于的劳动，所以是谁来发表马克思主义的呢？显然，是那些闲人。所以这种事情只会发生在资本家身上。对
+                                        于一个劳动者来说，自己只是为了生活，没有时间管那么多的思想，那是富人的东西。当然，那是传统意义上的劳动者。
+                                    </div>
+                                    <div>
+                                        现在而言，我们都是劳动者，一个有智慧的劳动者，但是我们的未来前往何方。马克思说人类社会必然会出现由奴隶阶级向封建阶级的过渡，
+                                        接着走向资本主义，然后是社会主义。但是我认为社会主义社会之后还有一个东西，不是共产主义，而是统治阶级。
+                                    </div>
+                                    <div>
+                                        显然，这里的统治阶级并不是传统意义上的封建统治，而是一种所有人都接受的“消极”统治。这就是承认人的力量，恰好
+                                        这也是共产主义强调的——人心所致。下面我仔细阐述：
+                                    </div>
+                                </div>
+                             </div>   
+                        </div>
+                </div>
+
+            </div>
+
+                            </div>
+
+                        </div>
+                       
+
+
+                    </div>
+
+                </div>
+  <!--End pagewrapper-->
+ <script src="js/jquery.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="js/owl.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/appear.js"></script>
+  <script src="js/jquery.fancybox.js"></script>
+  <script src="js/element-in-view.js"></script>
+  <script src="js/knob.js"></script>
+  <script src="js/validate.js"></script>
+  <script src="js/mousemoveparallax.js"></script>
+  <script src="js/pagenav.js"></script>
+  <script src="js/jquery-type.js"></script>
+  <script src="js/particle-alone.js"></script>
+  <script src="js/jquery.nicescroll.min.js"></script>
+  <script src="js/script.js"></script>
+
+<!--Google Map APi Key-->
+<script src="http://ditu.google.cn/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script>
+<script src="js/gmaps.js"></script>
+<script src="js/map-script.js"></script>
+<!--End Google Map APi-->
+
+</body>
+</html>
